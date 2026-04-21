@@ -14,4 +14,6 @@ public interface IBookRepository
     Book? GetById(int id);
 
     void Update(Book book);
+
+    void Delete(bool id);
 }
